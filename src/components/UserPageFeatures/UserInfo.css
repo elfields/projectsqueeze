@@ -1,0 +1,87 @@
+/* CSS For container  */
+.user-info-container {
+  background-color: #f8d74a;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  font-family: "Roboto";
+}
+
+/* container for user's information */
+.user-info {
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  float: left;
+  justify-content: center;
+  margin-left: auto;
+}
+
+/* Input fields on user page */
+/* Text associated with fields */
+.input-label {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin: 20px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.input-field {
+  margin-left: 15px;
+  width: 55%;
+  height: 50px;
+  border: 0.5px solid lightgrey;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+/* Container to host the avatar */
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding-top: 100px;
+  padding-left: 90px;
+  padding-bottom: 2%;
+}
+
+.avatar {
+  width: 190px;
+  fill: white;
+  vertical-align: middle;
+}
+
+/* Spacing from input label to input fields */
+#name-form {
+  margin-left: 92px;
+}
+
+#email-form {
+  margin-left: 30px;
+}
+
+#acc-form {
+  margin-left: 12px;
+}
+
+/* URL for "upload photo" */
+.upload-button {
+  color: #61bfc4;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.upload-button:hover {
+  color: #0a1e1f;
+  cursor: pointer;
+}

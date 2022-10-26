@@ -1,0 +1,70 @@
+/* Container for entire Nav bar length */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 24px;
+  margin-right: 60px;
+  margin-left: 60px;
+  text-decoration: none;
+}
+
+/* CSS for logo */
+.squeeze-logo {
+  height: 80px;
+  width: 100%;
+}
+
+/* Container where Squeeze Logo is contained */
+.nav-logo-container {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+/* Container for links on Nav bar */
+.nav-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 500px;
+  justify-content: space-evenly;
+}
+
+/* CSS for Nav Link/Button styling */
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+  width: 150px;
+  margin: 5px;
+
+  border: 0.5px solid #0a1e1f;
+  border-radius: 5px;
+
+  color: #f3f38e;
+  background-color: #0a1e1f;
+  text-decoration: none;
+
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Colour change to button when hovering overwith mouse. */
+.nav-button:hover {
+  color: #98e6e8;
+}
+
+.nav-button:hover {
+  color: #98e5e7;
+}
+
+/* CSS for Text styling with buttons */
+.link-text{
+  text-decoration: none;
+}
+

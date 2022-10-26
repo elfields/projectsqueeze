@@ -1,0 +1,75 @@
+
+/* Positioning of the toggle */
+.toggle-container {
+  justify-content: center;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  display: grid;
+  margin: auto;
+  text-align: center; 
+}
+  
+/* CSS for the Toggle when initially rendered */
+.toggle-switch .switch {
+  position: absolute;
+  cursor: pointer;
+  background-color: rgb(201, 199, 199);
+  border-radius: 25px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: background-color 0.2s ease;
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+}
+  
+.toggle-switch .switch::before {
+  position: absolute;
+  content: "";
+  left: 3px;
+  top: 1px;
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  justify-items: center;
+}
+  
+/* CSS for when Toggled on */
+.toggle-switch input[type="checkbox"]:checked + .switch::before {
+  transform: translateX(25px);
+  background-color: #98e6e8;
+}
+  
+.toggle-switch input[type="checkbox"]:checked + .switch {
+  background-color: #519a9e;
+}
+
+/* CSS for how Toggle switch looks */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  display: grid;
+  margin: auto;
+  text-align: center;  
+}
+
+.toggle-switch input[type="checkbox"] {
+  display: none;
+}
+
+/* CSS for positioning and styling of the label next to Toggle */
+#any-genre {
+  margin-left: 50px;
+  font-size: 18px;
+  width: 150px;
+  vertical-align: middle;
+}
+

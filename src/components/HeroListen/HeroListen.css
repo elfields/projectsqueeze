@@ -1,0 +1,106 @@
+.hero-listen {
+  /* background-color: #F8D74A; */
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  height: 600px;
+  padding: 30px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+/* CSS for various headers that will live on the Listen Page */
+.header-text {
+  color: #f8d74a;
+  margin: 20px;
+  text-align: left;
+}
+
+/* Formatting the header rext and size */
+.header-text > h1 {
+  font-family: "Mont";
+  font-size: 70px;
+  margin: 0;
+}
+
+/* Defining the font size for h2 and h3 texts */
+h2 {
+  font-size: 36px;
+  margin: 12px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 12px;
+}
+
+/* CSS for Media container including
+thumbnail and audio player */
+.podcast-media {
+  float: left;
+  margin: 20px;
+  width: 35%;
+  justify-items: center;
+  text-align: center;
+  display: grid;
+}
+
+/* CSS for Thumbnail */
+.podcast-art {
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+/* CSS for section with podcast data
+such as title, host, description */
+.podcast-information {
+  position: relative;
+  width: 95%;
+  height: 200px;
+}
+
+.description {
+  position: relative;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 16px;
+}
+
+/* CSS for making the overflow scroll bar prettier  */
+
+/* width */
+.description::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.description::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #61bfc4;
+  border-radius: 10px;
+}
+
+/* Handle */
+.description::-webkit-scrollbar-thumb {
+  background: #f8d74a;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.description::-webkit-scrollbar-thumb:hover {
+  background: #f8d74a;
+}
+
+/* positioning the suggestions carousel below the hero */
+.listen-carousel-container {
+  position: relative;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #61bfc4;
+}
